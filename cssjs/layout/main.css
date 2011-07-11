@@ -70,3 +70,57 @@ nav > ul > li{
   text-transform: none;
   letter-spacing: 0.15em;
 }
+
+#forkme{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1.2ex;
+  width: 300px;
+  font: bold 10pt 'Helvetiva Neue', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  background: rgb(51, 170, 51);
+  background: -moz-linear-gradient(
+    rgb(0,100,0),
+    rgba(0,255,0,0) 7%,
+    rgb(30,140,30) 10%,
+    rgb(51, 170, 51) 50%,
+    rgb(30,140,30) 90%,
+    rgba(51,170,51, 0) 93%,
+    rgb(0, 100, 0) 100%
+    );
+  background: -webkit-linear-gradient(
+    rgb(0,100,0),
+    rgba(0,255,0,0) 7%,
+    rgb(30,140,30) 10%,
+    rgb(51, 170, 51) 50%,
+    rgb(30,140,30) 90%,
+    rgba(51,170,51, 0) 93%,
+    rgb(0, 100, 0) 100%
+    );
+  background: -o-linear-gradient(
+    rgb(0,100,0),
+    rgba(0,255,0,0) 7%,
+    rgb(30,140,30) 10%,
+    rgb(51, 170, 51) 50%,
+    rgb(30,140,30) 90%,
+    rgba(51,170,51, 0) 93%,
+    rgb(0, 100, 0) 100%
+    );
+  background: linear-gradient(
+    rgb(0,100,0),
+    rgba(0,255,0,0) 7%,
+    rgb(30,140,30) 10%,
+    rgb(51, 170, 51) 50%,
+    rgb(30,140,30) 90%,
+    rgba(51,170,51, 0) 93%,
+    rgb(0, 100, 0) 100%
+    );
+  color: white;
+  -moz-transform: translate(60px, -80px) rotate(-45deg);
+  -webkit-transform: translate(60px, -80px) rotate(-45deg);
+  -o-transform: translate(60px, -80px) rotate(-45deg);
+  -ms-transform: translate(60px, -80px) rotate(-45deg);
+  transform: translate(60px, -80px) rotate(-45deg);
+}
