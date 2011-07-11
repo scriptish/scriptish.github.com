@@ -1,7 +1,14 @@
-
-body{
+html {
+  width: 100%;
+  color: black;
+  background: white;
+}
+body {
   padding:0;
   margin:0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
 
 header, footer > section{
@@ -50,14 +57,12 @@ nav > ul > li{
 }
 
 #logo{
-  color: #33aa33;
-  width:64px;
-  height:64px;
-  background:url('../../images/scriptish64.png') no-repeat;
   display:block;
-  padding:0 0 0 70px;
+  color: #33aa33;
+  padding:0 0 0 80px;
+  background: transparent url('../../images/scriptish64.png') no-repeat left center;
   font-family: 'Dancing Script', serif;
-  font-size: 64px;
+  font-size: 70px;
   font-style: normal;
   font-weight: 700;
   text-shadow: 8px 8px 8px #ddd;
