@@ -1,0 +1,67 @@
+
+body{
+  padding:0;
+  margin:0;
+}
+
+header, footer > section{
+  width:800px;
+  margin:0 auto;
+  display:block;
+}
+
+header{
+  margin-top: 20px;
+}
+
+footer > section{
+  border-top:solid 2px #CCC;
+  padding-top:5px;
+  font-family: Verdana;
+  font-size: 0.8em;
+  text-align:center;
+}
+
+footer{
+  width:100%;
+  height:200px;
+  margin:0 auto;
+  padding:10px 0;
+  display:block;
+}
+
+nav{
+  margin:30px 0 0 0;
+  border-bottom:solid 2px #CCC;
+  padding-bottom:5px;
+}
+
+nav > ul{
+  list-style-type:none;
+  margin:0 auto;
+  width: 800px;
+  -webkit-padding-start:0 !important;
+  -moz-padding-start:0 !important;
+}
+
+nav > ul > li{
+  display:inline;
+  margin-right:20px;
+}
+
+#logo{
+  color: #33aa33;
+  width:64px;
+  height:64px;
+  background:url('../../images/scriptish64.png') no-repeat;
+  display:block;
+  padding:0 0 0 70px;
+  font-family: 'Dancing Script', serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  text-shadow: 8px 8px 8px #ddd;
+  text-decoration: none;
+  text-transform: none;
+  letter-spacing: 0.15em;
+}
