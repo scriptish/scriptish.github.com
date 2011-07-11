@@ -3,4 +3,4 @@ layout: main
 title: Scriptish
 ---
 
-hello world!
+More to follow soonish ;)
