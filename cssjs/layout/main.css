@@ -23,11 +23,12 @@ header{
 }
 
 footer > section{
-  border-top:solid 2px #CCC;
-  padding-top:5px;
+  margin-top: 2ex;
+  padding-top: 1ex;
   font-family: Verdana, sans-serif;
   font-size: 0.8em;
   text-align:center;
+  border-top: 1px dotted rgb(51,171,51);
 }
 
 footer{
