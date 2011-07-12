@@ -3,9 +3,11 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <link rel="shortcut icon" href="/favicon.ico"/>
+    {% if page.shorturl %}<link rel="shorturl shortlink" rev="canonical" href="{{ page.shorturl }}"/>{% endif %}
     <title>{{ page.title }}</title>
-     <link media="screen" rel="stylesheet" type="text/css" href="/cssjs/layout/main.css"/>
-     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dancing+Script:regular,bold&v1"/>
+    <link media="screen" rel="stylesheet" type="text/css" href="/cssjs/layout/main.css"/>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dancing+Script:regular,bold&v1"/>
+    {% include ga.html %}
   </head>
   <body>
     <header>
@@ -13,7 +15,7 @@
       <nav>
         <ul>
           <li>
-            <a title="Scriptish" rel="install" href="/index.html">Install</a>
+            <a title="Scriptish" rel="install" href="https://addons.mozilla.org/firefox/addon/scriptish/">Install</a>
           </li>
           <li>
             <a title="About Scriptish" rel="about" href="/about.html">About</a>
@@ -22,6 +24,10 @@
             <a title="Scriptish Source Code"
                rel="external"
                href="https://github.com/erikvold/scriptish/">Source code</a>
+          </li>
+          <li>
+            <a title="Scriptish Nightly Builds"
+               href="/nightlies.html">Nightly builds</a>
           </li>
           <li>
             <a title="Scriptish Wiki"
@@ -36,10 +42,14 @@
         </ul>
       </nav>
     </header>
+    <article>
     {{ content }}
+    </article>
     <footer>
       <section>
-        Hosting by <a title="Github" rel="host" target="_blank" href="http://github.com/">Github</a>.
+        <a title="License" rel="nofollow" href="/license.html">All content is public domain.</a>
+        Hosting by <a title="Github" rel="host external nofollow" target="_blank" href="http://github.com/">Github</a>.
+        <a id="forkme" title="Fork me on GitHub" rel="external nofollow" href="https://github.com/erikvold/scriptish/">Fork me on Github</a>
       </section>
     </footer>
   </body>
