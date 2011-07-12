@@ -3,8 +3,6 @@ layout: main
 title: Scriptish.org License
 ---
 
-# Scriptish.org
-
 ## Public Domain
 
 All content on Scriptish.org is dedicated to the public domain.  All rights to
