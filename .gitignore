@@ -1,5 +1,11 @@
 _site
-.DS_Store
+*.DS_Store
 .project
 .settings
+.directory
+*.tmp
+*.temp
+BASE.*
+LOCAL.*
+REMOTE.*
 
