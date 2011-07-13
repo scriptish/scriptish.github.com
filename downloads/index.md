@@ -11,7 +11,7 @@ which is updated every day and far more likely to have problems.
 ## [AMO](http://addons.mozilla.com/)
 
 The AMO release is reviewed by Mozilla's AMO Editors who diligently test and
-review the source versions released through this channel. So it is by fair the
+review the source versions released through this channel. So it is by far the
 most stable, and least current version.
 
 [Download AMO builds](https://addons.mozilla.org/firefox/addon/scriptish/)
