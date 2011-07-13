@@ -87,6 +87,34 @@ a:hover {
   text-decoration: none;
   text-transform: none;
   letter-spacing: 0.15em;
+  max-width: 500px;
+  height: 85px;
+}
+
+#install{
+  max-width: 200px;
+  height: 20px;
+  float: right;
+  position: relative;
+  top: -65px;
+  padding: 15px 25px 20px;
+  background-color: rgb(30,110,30);
+  color: white;
+  text-decoration: none;
+  -moz-border-radius: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#install:hover{
+  background-color: rgb(51,170,51);
+  color: white;
+}
+
+#install > span{
+  display: block;
+  font-size: 0.6em;
+  color: white;
 }
 
 #forkme{

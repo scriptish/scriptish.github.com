@@ -13,11 +13,14 @@
   <body>
     <header>
       <a id="logo" title="Scriptish" rel="home" href="/index.html">Scriptish</a>
+      {% if page.title != 'Install Scriptish' %}
+      <a id="install" title="Install Scriptish" rel="install download" href="/downloads">
+        Install Scriptish
+        <span>Free and Open Source</span>
+      </a>
+      {% endif %}
       <nav>
         <ul>
-          <li>
-            <a title="Scriptish" rel="install" href="https://addons.mozilla.org/firefox/addon/scriptish/">Install</a>
-          </li>
           <li>
             <a title="About Scriptish" rel="about" href="/about.html">About</a>
           </li>
@@ -28,10 +31,6 @@
             <a title="Scriptish Source Code"
                rel="external"
                href="https://github.com/erikvold/scriptish/">Source code</a>
-          </li>
-          <li>
-            <a title="Scriptish Nightly Builds"
-               href="/nightlies.html">Nightly builds</a>
           </li>
           <li>
             <a title="Scriptish Wiki"
