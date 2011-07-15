@@ -12,8 +12,7 @@ body {
   max-width: 800px;
 }
 
-header, footer > section{
-  width:800px;
+header, footer {
   margin:0 auto;
   display:block;
 }
@@ -22,7 +21,7 @@ header{
   margin-top: 20px;
 }
 
-footer > section{
+footer {
   margin-top: 2ex;
   padding-top: 1ex;
   font-family: Verdana, sans-serif;
@@ -72,6 +71,9 @@ a {
 }
 a:hover {
   color: rgb(51,170,51);
+}
+a.minor {
+  color: darkgray;
 }
 
 #logo{
