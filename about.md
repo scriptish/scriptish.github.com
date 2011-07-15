@@ -1,6 +1,6 @@
 ---
 layout: main
-title: About
+title: About Scriptish
 ---
 
 _Coming soon._
