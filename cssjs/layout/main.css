@@ -120,6 +120,8 @@ a.minor {
   margin: 0;
   padding: 1em;
 
+  font-size: large;
+
   border: 1px solid rgb(30,50,30);
   background: rgb(80,160,50);
   background: -moz-linear-gradient(top, rgb(80,160,50) 20%, rgb(60,198,20) 100%);
@@ -137,7 +139,7 @@ a.minor {
 }
 .install > span{
   display: block;
-  font-size: 0.6em;
+  font-size: x-small;
 }
 
 .posts span {
