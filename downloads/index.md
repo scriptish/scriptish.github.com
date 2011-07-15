@@ -14,7 +14,11 @@ The Mozilla Add-ons ([AMO](http://addons.mozilla.org/)) release is reviewed by M
 review the source versions released through this channel. So it is by far the
 most stable, and least current version.
 
-<a href="https://addons.mozilla.org/firefox/addon/scriptish/" class="install">Install!<span>From addons.mozilla.org</span></a>
+<a href="https://addons.mozilla.org/firefox/addon/scriptish/" class="install">
+  <span class="xpi"> </span>
+  Install!
+  <span>From addons.mozilla.org</span>
+</a>
 
 ## Staging
 

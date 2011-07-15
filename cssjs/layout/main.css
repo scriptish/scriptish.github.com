@@ -106,19 +106,19 @@ a.minor {
 
 .install, 
 .install * {
-  text-decoration: none;
   color: white !important;
-  text-align: center;
   font-weight: bold;
+  text-decoration: none;
   text-shadow: 2px 2px 2px rgb(30,50,30);
 }
 
 .install {
   display: block;
   max-width: 200px;
+  overflow: hidden;
 
   margin: 0;
-  padding: 1em;
+  padding: 1ex;
 
   font-size: large;
 
@@ -140,6 +140,18 @@ a.minor {
 .install > span{
   display: block;
   font-size: x-small;
+}
+.install span.xpi {
+  display: block;
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-right: 1ex;
+  background: url(/images/xpi.png) no-repeat center center;
+  background: url(/images/xpi.png) no-repeat center center, -moz-radial-gradient(rgba(20, 60, 0, 1), rgba(20, 83, 9, 0.7) 40%, rgba(23, 103, 9, 0.5) 55%, rgba(33, 123, 19, 0) 66%);
+  background: url(/images/xpi.png) no-repeat center center, -webkit-radial-gradient(rgba(20, 60, 0, 1), rgba(20, 83, 9, 0.7) 40%, rgba(23, 103, 9, 0.5) 55%, rgba(33, 123, 19, 0) 66%);
+  background: url(/images/xpi.png) no-repeat center center, -o-radial-gradient(rgba(20, 60, 0, 1), rgba(20, 83, 9, 0.7) 40%, rgba(23, 103, 9, 0.5) 55%, rgba(33, 123, 19, 0) 66%);
+  background: url(/images/xpi.png) no-repeat center center, radial-gradient(rgba(20, 60, 0, 1), rgba(20, 83, 9, 0.7) 40%, rgba(23, 103, 9, 0.5) 55%, rgba(33, 123, 19, 0) 66%);
 }
 
 .posts span {
