@@ -1,0 +1,56 @@
+<body>
+  <header>
+    <a id="logo" title="Scriptish" rel="home" href="/index.html">Scriptish</a>
+    {% if page.title != 'Install Scriptish' %}
+    <a id="install" class="install" title="Install Scriptish" rel="install download" href="/downloads">
+      Install Scriptish
+      <span>Free and Open Source</span>
+    </a>
+    {% endif %}
+    <nav>
+      <ul>
+        <li>
+          <a title="About Scriptish" rel="about" href="/about.html">About</a>
+        </li>
+        <li>
+          <a title="Scriptish Blog" href="/blog.html">Blog</a>
+        </li>
+        <li>
+          <a title="Scriptish Source Code"
+             rel="external"
+             href="https://github.com/erikvold/scriptish/">Source code</a>
+        </li>
+        <li>
+          <a title="Scriptish Wiki"
+             rel="external"
+             href="https://github.com/erikvold/scriptish/wiki">Wiki</a>
+        </li>
+        <li>
+          <a title="Scriptish Forum"
+             rel="external nofollow"
+             href="http://groups.google.com/group/scriptish">Forum</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <h1>{{ page.title }}</h1>
+    {% if page.author and page.author.website %}
+      <p class="byline">By <a title="{{ page.author.name }}" rel="external nofollow" href="{{ page.author.website }}">{{ page.author.name }}</a></p>
+    {% elsif page.author.website %}
+      <p class="byline">By {{ page.author.name }}</p>
+    {% endif %}
+    {{ content }}
+  </article>
+  <footer>
+    <section>
+      <a title="License" rel="nofollow" href="/license.html">All content is public domain.</a>
+      Hosting by <a title="Github" rel="host external nofollow" target="_blank" href="http://github.com/">Github</a>.
+    </section>
+    <section>
+      <a title="Fork site" rel="nofollow" class="minor" href="https://github.com/scriptish/scriptish.github.com/">Fork and improve this site</a>
+    </section>
+    <a id="forkme" title="Fork me on GitHub" rel="external nofollow" href="https://github.com/erikvold/scriptish/">Fork me on Github</a>
+  </footer>
+  {% include ga.html %}
+</body>
