@@ -152,6 +152,34 @@ a.minor {
   content: '»';
 }
 
+.screenshots {
+  padding: 0;
+  margin: auto;
+  overflow: auto;
+  margin-bottom: 1ex;
+}
+.screenshots > li {
+  display: table;
+  float: left;
+  list-style-type: none;
+  margin: 1ex;
+  width: 240px;
+  height: 200px;
+  box-shadow: 2px 2px 6px rgba(0,100,0,0.5);
+}
+
+.screenshots > li > a {
+  display: table-cell;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+.screenshots > li > a > img {
+  margin: auto;
+  border: 0;
+}
+
 #forkme{
   position: fixed;
   bottom: 0;
