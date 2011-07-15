@@ -135,6 +135,16 @@ a.minor {
   font-size: 0.6em;
 }
 
+.posts span {
+  font-size: small;
+}
+
+.posts span:after {
+  padding-left: 0.5ex;
+  padding-right: 1ex;
+  content: '»';
+}
+
 #forkme{
   position: fixed;
   bottom: 0;
