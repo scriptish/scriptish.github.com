@@ -91,30 +91,46 @@ a:hover {
   height: 85px;
 }
 
-#install{
-  max-width: 200px;
-  height: 20px;
+#install {
   float: right;
   position: relative;
   top: -65px;
-  padding: 15px 25px 20px;
-  background-color: rgb(30,110,30);
-  color: white;
+}
+
+.install, 
+.install * {
   text-decoration: none;
-  -moz-border-radius: 15px;
-  border-radius: 5px;
+  color: white !important;
   text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(30,50,30);
 }
 
-#install:hover{
-  background-color: rgb(51,170,51);
-  color: white;
-}
+.install {
+  display: block;
+  max-width: 200px;
 
-#install > span{
+  margin: 0;
+  padding: 1em;
+
+  border: 1px solid rgb(30,50,30);
+  background: rgb(80,160,50);
+  background: -moz-linear-gradient(top, rgb(80,160,50) 20%, rgb(60,198,20) 100%);
+  background: -webkit-linear-gradient(top, rgb(80,160,50) 20%, rgb(60,198,20) 100%);
+  background: -o-linear-gradient(top, rgb(80,160,50) 20%, rgb(60,198,20) 100%);
+  background: linear-gradient(top, rgb(80,160,50) 20%, rgb(60,198,20) 100%);
+  border-radius: 10px;
+}
+.install:hover {
+  background: rgb(100,190,70);
+  background: -moz-linear-gradient(top, rgb(100,190,60) 20%, rgb(100,228,20) 100%);
+  background: -webkit-linear-gradient(top, rgb(100,190,60) 20%, rgb(100,228,20) 100%);
+  background: -o-linear-gradient(top, rgb(100,190,60) 20%, rgb(100,228,20) 100%);
+  background: linear-gradient(top, rgb(100,190,60) 20%, rgb(100,228,20) 100%);
+}
+.install > span{
   display: block;
   font-size: 0.6em;
-  color: white;
 }
 
 #forkme{
