@@ -1,15 +1,23 @@
 html {
-  width: 100%;
+  height: 100%;
   color: black;
-  background: white;
+  padding: 0;
+  margin: 0;
+  background: rgb(30,110,30);
 }
 body {
   font-family: sans-serif;
-  padding:0;
-  margin:0;
+  margin: 0;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
+  padding-left: 3em;
+  padding-right: 3em;
+  min-height: 100%;
+  width: 80%;
   max-width: 800px;
+  background: white;
+  box-shadow: 0 0 10px black;
 }
 
 header, footer {
@@ -17,8 +25,8 @@ header, footer {
   display:block;
 }
 
-header{
-  margin-top: 20px;
+header {
+  padding-top: 2em;
 }
 
 footer {
@@ -31,8 +39,6 @@ footer {
 }
 
 footer{
-  width:100%;
-  height:200px;
   margin:0 auto;
   padding:10px 0;
   display:block;
@@ -49,7 +55,6 @@ nav{
 nav > ul{
   list-style-type:none;
   margin:0 auto;
-  width: 800px;
   -webkit-padding-start:0 !important;
   -moz-padding-start:0 !important;
 }
@@ -154,42 +159,35 @@ a.minor {
   font: bold 10pt 'Helvetiva Neue', Helvetica, Arial, sans-serif;
   text-decoration: none;
   text-align: center;
-  background: rgb(51, 170, 51);
+  background: rgb(51, 51, 51);
+  border: 2px solid black;
   background: -moz-linear-gradient(
-    rgb(0,100,0),
-    rgba(0,255,0,0) 7%,
-    rgb(30,140,30) 10%,
-    rgb(51, 170, 51) 50%,
-    rgb(30,140,30) 90%,
-    rgba(51,170,51, 0) 93%,
-    rgb(0, 100, 0) 100%
+    white,
+    rgb(30,30,30) 4%,
+    rgb(51,51,51) 50%,
+    rgb(30,30,30) 94%,
+    white 100%
     );
   background: -webkit-linear-gradient(
-    rgb(0,100,0),
-    rgba(0,255,0,0) 7%,
-    rgb(30,140,30) 10%,
-    rgb(51, 170, 51) 50%,
-    rgb(30,140,30) 90%,
-    rgba(51,170,51, 0) 93%,
-    rgb(0, 100, 0) 100%
+    white,
+    rgb(30,30,30) 4%,
+    rgb(51,51,51) 50%,
+    rgb(30,30,30) 94%,
+    white 100%
     );
   background: -o-linear-gradient(
-    rgb(0,100,0),
-    rgba(0,255,0,0) 7%,
-    rgb(30,140,30) 10%,
-    rgb(51, 170, 51) 50%,
-    rgb(30,140,30) 90%,
-    rgba(51,170,51, 0) 93%,
-    rgb(0, 100, 0) 100%
+    white,
+    rgb(30,30,30) 4%,
+    rgb(51,51,51) 50%,
+    rgb(30,30,30) 94%,
+    white 100%
     );
   background: linear-gradient(
-    rgb(0,100,0),
-    rgba(0,255,0,0) 7%,
-    rgb(30,140,30) 10%,
-    rgb(51, 170, 51) 50%,
-    rgb(30,140,30) 90%,
-    rgba(51,170,51, 0) 93%,
-    rgb(0, 100, 0) 100%
+    white,
+    rgb(30,30,30) 4%,
+    rgb(51,51,51) 50%,
+    rgb(30,30,30) 94%,
+    white 100%
     );
   color: white;
   -moz-transform: translate(60px, -80px) rotate(-45deg);
