@@ -1,6 +1,5 @@
 <body>
-  <header>
-    <a id="logo" title="Scriptish" rel="home" href="/index.html">Scriptish</a>
+  <header id="mainheader">
     {% if page.title != 'Install Scriptish' %}
     <a id="install" class="install" title="Install Scriptish" rel="install download" href="/downloads">
       <span class="xpi"></span>
@@ -8,6 +7,8 @@
       <span>Free and Open Source</span>
     </a>
     {% endif %}
+    <img id="logo" src="/images/scriptish128.png">
+    <a id="title" title="Scriptish" rel="home" href="/index.html"><h1>Scriptish</h1></a>
     <nav>
       <ul>
         <li>

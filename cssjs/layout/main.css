@@ -11,11 +11,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  padding-left: 3em;
-  padding-right: 3em;
   min-height: 100%;
-  width: 80%;
-  max-width: 800px;
+  max-width: 900px;
   background: white;
   box-shadow: 0 0 10px black;
 }
@@ -24,9 +21,9 @@ header, footer {
   margin:0 auto;
   display:block;
 }
-
-header {
-  padding-top: 2em;
+body > article, body > footer {
+  padding-left: 3em;
+  padding-right: 3em;
 }
 
 footer {
@@ -45,25 +42,32 @@ footer{
 }
 
 nav{
-  margin-top: 2ex;
+  margin-top: -14px;
   margin-bottom:3ex;
-  padding-bottom:1ex;
+  padding-top: 10px;
   font-weight: bold;
-  border-bottom: 1px dotted rgb(51,171,51);
+  background-color: rgb(30, 110, 30);
 }
 
 nav > ul{
+  margin: 0;
+  padding-left: 130px;
+  padding-bottom: 10px;
   list-style-type:none;
-  margin:0 auto;
-  -webkit-padding-start:0 !important;
-  -moz-padding-start:0 !important;
+  overflow: hidden;
 }
 
 nav > ul > li{
-  display:inline;
+  display:inline-block;
+  padding: 0;
   margin-right:20px;
 }
 nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: rgba(255,255,255,0.6);
   text-decoration: none;
 }
 
@@ -82,26 +86,35 @@ a.minor {
 }
 
 #logo{
+  position: absolute;
+  float:left;
   display:block;
-  color: #33aa33;
-  padding:0 0 0 80px;
-  background: transparent url('../../images/scriptish64.png') no-repeat left center;
+  padding: 0;
+  width: 128px;
+  height: 128px;
+}
+#title {
+  display: block;
+  padding-left: 130px;
   font-family: 'Dancing Script', serif;
-  font-size: 70px;
   font-style: normal;
-  font-weight: 700;
-  text-shadow: 8px 8px 8px #ddd;
+  font-weight: 800;
+  text-shadow: 8px 8px 10px rgba(30,110,30,.3);
   text-decoration: none;
   text-transform: none;
-  letter-spacing: 0.15em;
-  max-width: 500px;
-  height: 85px;
+  text-rendering: optimizeLegibility;
+}
+#title > * {
+  font-size: 90px;
+  margin: 0;
+  padding: 0;
 }
 
 #install {
+  margin-top: 8px;
   float: right;
   position: relative;
-  top: -65px;
+  right: 2ex;
 }
 
 .install, 
@@ -121,7 +134,7 @@ a.minor {
   padding: 1ex;
   padding-right: 1em;
 
-  font-size: large;
+  font-size: 18px;
 
   border: 1px solid rgb(30,50,30);
   background: rgb(80,160,50);
@@ -140,7 +153,7 @@ a.minor {
 }
 .install > span{
   display: block;
-  font-size: x-small;
+  font-size: 10px;
 }
 .install span.xpi {
   display: block;
@@ -238,4 +251,28 @@ a.minor {
   -o-transform: translate(60px, -80px) rotate(-45deg);
   -ms-transform: translate(60px, -80px) rotate(-45deg);
   transform: translate(60px, -80px) rotate(-45deg);
+}
+
+@media all and (max-width: 550px) {
+  #logo {
+    display: none !important;
+  }
+  #title, nav > ul {
+    padding-left: 10px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  #install {
+    max-width: 80px;
+    font-size: 12px;
+  }
+  #install .xpi {
+    display: none;
+  }
+}
+@media all and (max-width: 900px) {
+  #forkme {
+    display: none;
+  }
 }
