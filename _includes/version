@@ -1,1 +1,1 @@
-git9f9f79a
+{{ site.time | date: "%y%m%d%H%m%S" }}
