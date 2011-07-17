@@ -2,6 +2,6 @@
 <link rel="shortcut icon" href="/favicon.ico"/>
 {% if page.shorturl %}<link rel="shorturl shortlink" rev="canonical" href="{{ page.shorturl }}"/>{% endif %}
 <title>{{ page.title }}</title>
-<link media="screen" rel="stylesheet" type="text/css" href="/cssjs/layout/main.css?{% include version %}"/>
+<link media="screen" rel="stylesheet" type="text/css" href="/cssjs/layout/main.css?build={{ site.time | date: "%y%m%d%H%m%S" }}"/>
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Dancing+Script:regular,bold&v1"/>
 <link rel="alternate" type="application/atom+xml" title="The Scriptish Blog" href="http://feeds.feedburner.com/scriptishorg"/>
