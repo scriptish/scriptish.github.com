@@ -2,6 +2,7 @@
 layout: main
 title: Scriptish
 canonical: http://scriptish.org
+keywords: scriptish, user script, userscript, firefox, mozilla, javascript
 ---
 
 The greatest user script engine on the Internet.
