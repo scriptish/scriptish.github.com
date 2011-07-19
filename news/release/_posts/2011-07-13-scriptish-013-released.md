@@ -20,6 +20,6 @@ this release, and 0.1.4 which is shaping up to be a great one, so watch out for
 it next month!
 
 [Slowpoke]:http://github.com/slowpoke
-[version history]:https://github.com/erikvold/scriptish/wiki/Version-History
+[version history]:https://github.com/scriptish/scriptish/wiki/Version-History
 [Greg Parris]:https://github.com/supahgreg
 [Nils Maier]:https://github.com/nmaier
