@@ -46,6 +46,10 @@ footer{
   padding: 10px 0;
 }
 
+#promotejs > img {
+  margin-top: 15px;
+}
+
 nav{
   margin-top: -14px;
   margin-bottom:3ex;
