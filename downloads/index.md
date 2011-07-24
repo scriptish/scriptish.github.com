@@ -25,7 +25,7 @@ most stable, and least current version.
 For beta releases and official releases you can install Scriptish from the
 staging channel.
 
-[Download staging builds](https://github.com/erikvold/scriptish/downloads)
+[Download staging builds](https://github.com/scriptish/scriptish/downloads)
 
 ## Nightlies
 
@@ -33,4 +33,4 @@ Every night a new installable add-on file is produced from what is currently in 
 
 _Beware:_ Nightly builds might be unstable or outright broken!
 
-[Download nightly builds](https://github.com/nmaier/scriptish/downloads)
+[Download nightly builds](https://github.com/scriptish/scriptish-nightlies/downloads)
