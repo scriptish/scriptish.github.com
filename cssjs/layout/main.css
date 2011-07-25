@@ -78,6 +78,11 @@ nav a {
   color: white;
   text-decoration: none;
 }
+nav a[rel~=external] {
+  background: url('../../images/external-link.png') no-repeat;
+  background-position: 100% 45%;
+  padding-right: 13px;
+}
 nav a:hover {
   color: rgba(255,255,255,0.6);
 }
