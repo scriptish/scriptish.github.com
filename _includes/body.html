@@ -41,6 +41,9 @@
   </header>
   <article>
     <h1>{{ page.title }}</h1>
+    {% if page.date %}
+      <time>{{ page.date | date_to_string }}</time>
+    {% endif %}
     {% if page.author and page.author.website %}
       <p class="byline">By <a title="{{ page.author.name }}" rel="external nofollow" href="{{ page.author.website }}">{{ page.author.name }}</a></p>
     {% elsif page.author.website %}
