@@ -265,9 +265,15 @@ a.minor {
 
 @media all and (max-width: 550px) {
   #logo {
-    display: none !important;
+    background: none;
+    padding-left: 10px;
+    font-size: 70px;
   }
-  #title, nav > ul {
+  nav {
+    background: rgb(30, 110, 30);
+    margin-top: -40px;
+  }
+  nav > ul {
     padding-left: 10px;
   }
 }
