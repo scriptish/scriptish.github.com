@@ -1,6 +1,8 @@
 ---
 layout: main
 title: Scriptish.org License
+canonical: http://scriptish.org/license.html
+keywords: scriptish, license, public domain, scriptish.org
 ---
 
 ## Public Domain
