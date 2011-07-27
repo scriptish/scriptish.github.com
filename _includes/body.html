@@ -8,36 +8,7 @@
     </a>
     {% endif %}
     <a id="logo" title="Scriptish" rel="home" href="/index.html">Scriptish</a>
-    <nav>
-      <ul>
-        <li>
-          <a title="About Scriptish" rel="about" href="/about.html">About</a>
-        </li>
-        <li>
-          <a title="Scriptish Screenshots"
-             rel="screenshots"
-             href="/screenshots">Screenshots</a>
-        </li>
-        <li>
-          <a title="Scriptish Blog" href="/blog.html">Blog</a>
-        </li>
-        <li>
-          <a title="Scriptish Source Code"
-             rel="external"
-             href="https://github.com/scriptish/scriptish/">Source code</a>
-        </li>
-        <li>
-          <a title="Scriptish Wiki"
-             rel="external"
-             href="https://github.com/scriptish/scriptish/wiki">Wiki</a>
-        </li>
-        <li>
-          <a title="Scriptish Forum"
-             rel="external nofollow"
-             href="http://groups.google.com/group/scriptish">Forum</a>
-        </li>
-      </ul>
-    </nav>
+    {% include navigation.html %}
   </header>
   <article>
     <h1>{{ page.title }}</h1>
