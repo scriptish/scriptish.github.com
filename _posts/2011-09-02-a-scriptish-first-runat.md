@@ -1,7 +1,7 @@
 ---
 layout: main
 title: A Scriptish First - @run-at
-keywords: @run-at, runat, run at, document-start, metadata
+keywords: run-at, runat, run at, document-start, metadata
 author:
     name: Erik Vold
     website: http://erikvold.com/
