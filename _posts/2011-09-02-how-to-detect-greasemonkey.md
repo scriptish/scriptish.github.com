@@ -2,6 +2,11 @@
 layout: main
 title: How-to Detect Greasemonkey
 keywords: pii personal information security
+author:
+    name: Erik Vold
+    website: http://erikvold.com/
+    twitter: erikvold
+    email: erikvvold@gmail.com
 ---
 
 If you are a Greasemonkey user, then you may be surprised to know that
