@@ -18,19 +18,15 @@ how you do it:
 
 ## Option 1
 
-```javascript
-if (Components.interfaces.gmIGreasemonkeyService) {
-  alert("I smell a monkey!");
-}
-```
+    if (Components.interfaces.gmIGreasemonkeyService) {
+      alert("I smell a monkey!");
+    }
 
 ## Option 2
 
-```html
-<script type="text/javascript" src="resource://greasemonkey/addons4.js"></script>
-<script type="text/javascript">
-if (typeof GM_addonsStartup !== "undefined") {
-  alert("I smell a monkey!");
-}
-</script>
-```
+    <script type="text/javascript" src="resource://greasemonkey/addons4.js"></script>
+    <script type="text/javascript">
+    if (typeof GM_addonsStartup !== "undefined") {
+      alert("I smell a monkey!");
+    }
+    </script>
