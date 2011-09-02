@@ -12,9 +12,8 @@ author:
 This is actually a funny story.  Way back when [Google Chrome announced that it
 would support user scripts natively](http://blog.chromium.org/2010/02/40000-more-extensions.html)
 there was [this lonely and sparse page of documentation provided](https://sites.google.com/a/chromium.org/dev/developers/design-documents/user-scripts)
-which described a new feature, `@run-at`.
-
-From reading this documentation one was lead to believe that adding a
+which described a new feature, `@run-at`.  From reading this documentation
+one was lead to believe that adding a
 `@run-at document-start` metadata key/value pair, then their user script would
 be executed when a page begins loading, before the default point at which user
 scripts are loaded (ie: the DOM loaded event).
