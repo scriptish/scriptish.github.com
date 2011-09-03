@@ -5,7 +5,11 @@ canonical: http://scriptish.org
 keywords: scriptish, user script, userscript, firefox, mozilla, javascript
 ---
 
-The greatest user script engine on the Internet.
+Scriptish is greatest user script engine on the Internet.  It was forked from
+Greasemonkey and made much better.
+
+If you are looking for user scripts, then checkout
+[userscripts.org](http://userscripts.org).
 
 ## News
 

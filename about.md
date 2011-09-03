@@ -1,6 +1,7 @@
 ---
 layout: main
 title: About Scriptish
+keywords: scriptish, about
 ---
 
 [Scriptish] is a fork of [Greasemonkey] made because enough developers felt
