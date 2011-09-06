@@ -23,7 +23,7 @@ to build example addons to try out what was possible.  I'll probably write some
 tutorials on [my blog](http://erikvold.com/) in the near future if you are
 interested in that sort of thing.
 
-Scriptish 0.1.5 was just uploaded to AMO, but it should be reviewed within a
+Scriptish 0.1.5 was just uploaded to AMO, so it should be reviewed within a
 week or so.
 
 I hope you enjoy user scripting the mobile web!
