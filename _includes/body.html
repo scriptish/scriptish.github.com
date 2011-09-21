@@ -16,7 +16,7 @@
       <time>{{ page.date | date_to_string }}</time>
     {% endif %}
     {% if page.author and page.author.website %}
-      <p class="byline">By <a title="{{ page.author.name }}" rel="external nofollow" href="{{ page.author.website }}">{{ page.author.name }}</a></p>
+      <p class="byline">By <a title="{{ page.author.name }}" rel="external" href="{{ page.author.website }}">{{ page.author.name }}</a></p>
     {% elsif page.author.website %}
       <p class="byline">By {{ page.author.name }}</p>
     {% endif %}
