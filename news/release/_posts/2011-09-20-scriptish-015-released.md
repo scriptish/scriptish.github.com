@@ -16,7 +16,7 @@ author:
 If you'd like to see a full feature list then you should check out the [version
 history] wiki page.
 
-### Fennec
+### Supporting Fennec
 
 The biggest change is that [this release is the first to support Fennec](http://scriptish.org/news/2011/09/05/scriptish-supports-fennec.html),
 which is the mobile version of Firefox for Android.  So you can now
