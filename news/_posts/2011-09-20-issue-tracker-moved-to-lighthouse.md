@@ -31,7 +31,7 @@ Lighthouse has which Github issues do not (which cannot be said vice versa):
 * Tag cloud.
 * Better search and filters.
 * More states than just 'open' and 'closed'.
-* I can create a separate issue tracker for the block list.
+* I can create [a separate issue tracker for the block list](https://scriptish.lighthouseapp.com/projects/83268/).
 
 So if you are looking for the new issue tracker, then you can find it here:
 [Scriptish Issue Tracker](https://scriptish.lighthouseapp.com/projects/83146/)
