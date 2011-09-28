@@ -22,28 +22,25 @@ body {
 
 header, footer {
   display: block;
-  margin: 0 auto;
+  margin: 2ex auto 0;
 }
 body > article, body > footer {
   padding-left: 3em;
   padding-right: 3em;
 }
 
-footer {
-  margin-top: 2ex;
-  padding-top: 1ex;
+iframe, ins {
+  margin: 10px auto !important;
+  display: block !important;
+}
 
+footer {
   font-family: Verdana, sans-serif;
   font-size: 0.8em;
   text-align:center;
-
   border-top: 1px dotted rgb(51,171,51);
-}
-
-footer{
-  display: block;
-  margin: 0 auto;
   padding: 10px 0;
+  margin-top: 5ex !important;
 }
 
 #promotejs > img {
@@ -54,7 +51,7 @@ nav{
   margin-top: -30px;
   margin-bottom:3ex;
   padding-top: 10px;
-  background: transparent url('../../images/scriptish128.png') no-repeat 0 -100px;
+  background: transparent url('../../images/scriptish128.png') no-repeat 0 -107px;
 
   font-weight: bold;
   background-color: rgb(30, 110, 30);
@@ -102,12 +99,11 @@ a.minor {
 
 #logo {
   display:block;
-  padding:0 0 0 80px;
+  padding:20px 0 0 130px;
   background: transparent url('../../images/scriptish128.png') no-repeat left center;
   font-family: 'Dancing Script', serif;
   width: 128px;
   height: 128px;
-  padding: 0;
   font-style: normal;
   font-weight: 800;
   font-size: 90px;
@@ -115,7 +111,6 @@ a.minor {
   text-decoration: none;
   text-transform: none;
   text-rendering: optimizeLegibility;
-  padding-left: 130px;
   color: #3A3;
 }
 
@@ -123,7 +118,7 @@ a.minor {
   position: relative;
   right: 2ex;
   float: right;
-  margin-top: 8px;
+  margin-top: 20px;
 }
 
 .install, 
@@ -138,7 +133,6 @@ a.minor {
   display: block;
   max-width: 200px;
   overflow: hidden;
-  margin: 0;
   padding: 1ex;
   padding-right: 1em;
 
