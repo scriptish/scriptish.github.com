@@ -24,7 +24,7 @@ So, I decided to make the switch to Lighthouse, and to demonstrate
 why I think it is the better issue tracker, here are some features that
 Lighthouse has which Github issues do not (which cannot be said vice versa):
 
-* RSS feeds for issues.
+* [A feed](https://scriptish.lighthouseapp.com/projects/83146-firefox-extension/events.atom).
 * Pages for the issue tracker.
 * Priority property for issues.
 * Default text for issues (which greatly improves the quality of bug reports!).
