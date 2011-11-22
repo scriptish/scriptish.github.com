@@ -1,6 +1,6 @@
 ---
 layout: main
-title: Please keep working on e10s Firefox!
+title: Please keep working on e10s Mozilla!
 keywords: e10s electrolysis mozilla firefox fennec
 author:
     name: Erik Vold
