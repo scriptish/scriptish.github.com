@@ -23,7 +23,7 @@ I wrote this extension for two reasons.  First, I hate the existing manager for
 search engines, and the second reason was a simple one, I needed to test my
 [addon provider jetpack module](https://github.com/erikvold/addonprovider-jplib).
 
-This new module will be used by Scriptish eventuall to display user scripts
+This new module will be used by Scriptish eventually to display user scripts
 in the Extension Manager, just as it always has; of course this module will
 need some more work to fully support Scriptish's feature set, but it is a
 good step forward.
