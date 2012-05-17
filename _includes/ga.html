@@ -1,6 +1,6 @@
 <script>
 (function(){
-  if (!navigator.doNotTrack) return;
+  if (navigator.doNotTrack) return;
 
   var _gaq = window._gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-24509354-1']);
