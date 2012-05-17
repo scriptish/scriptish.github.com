@@ -1,5 +1,5 @@
 
-if (navigator.doNotTrack) {
+if (!navigator.doNotTrack) {
   (function(){
     var _gaq = window._gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-24509354-1']);
