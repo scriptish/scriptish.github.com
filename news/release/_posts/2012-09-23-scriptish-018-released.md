@@ -18,7 +18,7 @@ history] wiki page.
 
 ### Fennec
 
-Fennec has changed, the lder version has been replaced by what we call now
+Fennec has changed, the older version has been replaced by what we call now
 Native Fennec.  So all of the old code, that had a few bugs, is no longer
 useful.  So support for Fennec has been temporarily removed.
 
