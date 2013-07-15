@@ -39,7 +39,7 @@ Scratchpad!
 
 In the next release I plan to have added a user script context to Scratchpad
 so that one can easily test the parts of their user script that use the
-Greasemonkey (aka GM_*) api which Scriptish implements.
+Greasemonkey API which Scriptish implements.
 
 So big thanks to Greg for his work on this!
 
