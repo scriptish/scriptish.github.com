@@ -18,7 +18,7 @@ There is a very important difference between
 and
 Scriptish's [`@grant` implementation](https://github.com/scriptish/scriptish/wiki/Manual:-Metadata-Block#grant)
 which is that Greasemonkey attempts to auto determine which `GM_` apis the script needs, and Scriptish
-will not.  Which means a lot of user scripts may break in the coming upgrade.  I'm doing this
+will not.  Which means a lot of userscripts may break in the coming upgrade.  I'm doing this
 to force userscript authors to fix their scripts though, and they've had a year to do this so
 it is about time they got around to it.
 
