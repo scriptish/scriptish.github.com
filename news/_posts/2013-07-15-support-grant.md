@@ -16,7 +16,7 @@ userscripts, and we should have supported this feature sooner, alias it not happ
 There is a very important difference between
 [Greasemonkey's `@grant` implementation](http://wiki.greasespot.net/@grant)
 and
-Scriptish's `@grant` implementation](https://github.com/scriptish/scriptish/wiki/Manual:-Metadata-Block#grant)
+Scriptish's [`@grant` implementation](https://github.com/scriptish/scriptish/wiki/Manual:-Metadata-Block#grant)
 which is that Greasemonkey attempts to auto determine which `GM_` apis the script needs, and Scriptish
 will not.  Which means a lot of user scripts may break in the coming upgrade.  I'm doing this
 to force userscript authors to fix their scripts though, and they've had a year to do this so
