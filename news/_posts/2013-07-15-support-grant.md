@@ -11,7 +11,7 @@ author:
 
 [Greasemonkey implemented `@grant` last year](http://www.greasespot.net/2012/08/greasemonkey-10-release.html),
 and Scriptish fell behind.. that sucked.  The feature is a good one that adds a little more security to
-userscripts, and we should have supported this feature sooner, alias it not happen until this weekend.
+userscripts, and we should have supported this feature sooner, alas it did not happen until this weekend.
 
 There is a very important difference between
 [Greasemonkey's `@grant` implementation](http://wiki.greasespot.net/@grant)

@@ -12,8 +12,8 @@ author:
 Over the weekend I did some work on Scriptish!
 
 One of the features I'm most happy about finally adding is
-[the new `@css` header](https://github.com/scriptish/scriptish/wiki/Manual:-Metadata-Block#css-new-is-scriptish)
-(introduced by and currently exclusively in Sriptish!),
+[the new `@css` header](https://github.com/scriptish/scriptish/wiki/Manual:-Metadata-Block#css-new-in-scriptish)
+(introduced by and currently exclusively in Scriptish!),
 which effectively adds all of the
 power of [Stylish](https://addons.mozilla.org/firefox/addon/stylish/) to Scriptish ;)
 This was [Issue #70](https://github.com/scriptish/scriptish/issues/70).
