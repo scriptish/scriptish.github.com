@@ -20,13 +20,6 @@ most stable, and least current version.
   <span>From addons.mozilla.org</span>
 </a>
 
-## Staging
-
-For beta releases and official releases you can install Scriptish from the
-staging channel.
-
-[Download staging builds](https://github.com/scriptish/scriptish/downloads)
-
 ## Nightlies
 
 Every night a new installable add-on file is produced from what is currently in the developer repository, for brave users to test.
