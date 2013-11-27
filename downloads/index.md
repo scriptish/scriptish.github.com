@@ -26,4 +26,4 @@ Every night a new installable add-on file is produced from what is currently in 
 
 _Beware:_ Nightly builds might be unstable or outright broken!
 
-[Download nightly builds](https://github.com/scriptish/scriptish-nightlies/downloads)
+[Download nightly builds](https://github.com/scriptish/scriptish-nightlies/releases)
